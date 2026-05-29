@@ -3,8 +3,7 @@ import numpy as np
 # Controlla il file readme.md per i dettagli su ciascun sub-task
 
 def prodotto_scalare(v1: list, v2: list) -> float:
-    """Sub-task 1: Prodotto Scalare."""
-    pass
+    return float(np.dot(v1, v2))
 
 def rango_matrice(m: list) -> int:
     """Sub-task 2: Calcola il rango di una matrice."""
